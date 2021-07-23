@@ -2,11 +2,11 @@
 - Clone this repository.
 - Open cmd in working directory.
 - Execute following command:
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 - FACE_detect.py is the file which contains main function of the Face detection and counter.
 - app.py is the main python file for **Streamlit Web Application**.
 - To run app, write following command in CMD. or use any IDE.
-    streamlit run app.py
+    - streamlit run app.py
 
 ################ Information about other work done in this repository ##################
 

@@ -5,9 +5,10 @@
     - pip install -r requirements.txt
 - FACE_detect.py is the file which contains main function of the Face detection and counter.
 - app.py is the main python file for **Streamlit Web Application**.
-- To run app, write following command in CMD. or use any IDE.
+- To run app, write following command in CMD. or use any IDE. (This will run the app on localhost)
     - streamlit run app.py
-- Also DEPLOYED on Heroku, visit: https://face-detect-codingal-assign.herokuapp.com/
+- Also DEPLOYED on Heroku, visit: https://face-detect-codingal-assign.herokuapp.com/  (This may not work properly)
+- Waiting for Streamlit invite. Once got, I will deploy it on Streamlit for better efficiency.
 
 ################ Information about other work done in this repository ##################
 

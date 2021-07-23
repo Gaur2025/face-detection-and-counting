@@ -7,12 +7,13 @@
 - app.py is the main python file for **Streamlit Web Application**.
 - To run app, write following command in CMD. or use any IDE.
     - streamlit run app.py
+- Also DEPLOYED on Heroku, visit: https://face-detect-codingal-assign.herokuapp.com/
 
 ################ Information about other work done in this repository ##################
 
 
 #### This Repository contains programs to detect objects using OpenCV.
-#### Haarcascades XML files are used to create claasifiers. All xml files are stored in */Haarcascades* directory.
+#### Haarcascades XML files are used to create claasifiers. All xml files are stored in */Haarcascades* directory. Dataset link : https://www.kaggle.com/lalitharajesh/haarcascades
 #### Some image and video examples are saved in */image_examples* directory for testing purposes.
 
 1. app.py 

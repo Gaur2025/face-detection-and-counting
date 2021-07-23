@@ -1,6 +1,19 @@
-# This Repository contains programs to detect objects using OpenCV.
-# Haarcascades XML files are used to create claasifiers. All xml files are stored in */Haarcascades* directory.
-# Some image and video examples are saved in */image_examples* directory for testing purposes.
+# Usage:- 
+- Clone this repository.
+- Open cmd in working directory.
+- Execute following command:
+    pip install -r requirements.txt
+- FACE_detect.py is the file which contains main function of the Face detection and counter.
+- app.py is the main python file for **Streamlit Web Application**.
+- To run app, write following command in CMD. or use any IDE.
+    streamlit run app.py
+
+################ Information about other work done in this repository ##################
+
+
+#### This Repository contains programs to detect objects using OpenCV.
+#### Haarcascades XML files are used to create claasifiers. All xml files are stored in */Haarcascades* directory.
+#### Some image and video examples are saved in */image_examples* directory for testing purposes.
 
 1. app.py 
     - This file contains face detection and counting code.

@@ -1,7 +1,6 @@
 import cv2
 import streamlit as st
 import numpy as np
-# from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 import base64
 from io import BytesIO
 from PIL import Image
@@ -39,10 +38,10 @@ def run():
     st.sidebar.markdown("# Choose Input Source")
     choice = st.sidebar.selectbox(
         "Choose among the given options:", activities)
-    link = '[©Developed by Himanshu Gaur](http://github.com/Gaur2025)'
+    link = '[©Developed by Himanshu Gaur](https://github.com/Gaur2025/face-detection-and-counting)'
     st.sidebar.markdown(link, unsafe_allow_html=True)
     st.markdown(
-        '''<h4 style='text-align: left; color: #d73b5c;'>* Face Detection is done using Haar Cascade & OpenCV"</h4>''',
+        '''<h4 style='text-align: left; color: #d73b5c;'>* Face Detection is done using Haar Cascade dataset & OpenCV"</h4>''',
         unsafe_allow_html=True)
     img_file = st.file_uploader("Choose an Image", type=[
                                 'jpg', 'jpeg', 'jfif', 'png'])
@@ -55,7 +54,7 @@ def run():
             '''<h4 style='text-align: left; color: #d73b5c;'>* Increase & Decrease it to get better accuracy.</h4>''',
             unsafe_allow_html=True)
         scale_factor = st.slider(
-            "Set Scale Factor Value (Less the value => More faces can be detected.", min_value=1.1, max_value=1.9, step=0.10, value=1.3)
+            "Set Scale Factor Value (Less the value => More faces can be detected.)", min_value=1.1, max_value=1.9, step=0.10, value=1.3)
         min_Neighbors = st.slider(
             "Set Scale Min Neighbors", min_value=1, max_value=9, step=1, value=5)
         fd, count, orignal_image = face_detect(

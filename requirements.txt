@@ -63,7 +63,7 @@ pyparsing
 pyrsistent 
 python-dateutil 
 pytz==2021.1
-pywin32
+pypiwin32
 pywinpty 
 pyzmq==20.0.0
 requests==2.26.0

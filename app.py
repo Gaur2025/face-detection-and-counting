@@ -13,8 +13,6 @@ faceCascade = cv2.CascadeClassifier(
 # For Live Webcam.
 class VideoTransformer(VideoTransformerBase):
     def __init__(self):
-        self.threshold1 = 100
-        self.threshold2 = 200
         self.i = 0
 
     def transform(self, frame):
@@ -59,7 +57,7 @@ def run():
     st.sidebar.markdown("# Choose Input Source")
     choice = st.sidebar.selectbox(
         "Choose among the given options:", activities)
-    link = '[©Developed by Himanshu Gaur](https://github.com/Gaur2025/face-detection-and-counting)'
+    link = '[©Developed by Himanshu Gaur as Codingal Assignment](https://github.com/Gaur2025/face-detection-and-counting)'
     st.sidebar.markdown(link, unsafe_allow_html=True)
     if choice == 'Image':
         st.markdown(

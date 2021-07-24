@@ -84,7 +84,7 @@ def run():
                 st.markdown(get_image_download_link(result, img_file.name, 'Download Image'), unsafe_allow_html=True)
     if choice == 'Webcam':
         st.markdown(
-            '''<h4 style='text-align: left; color: #d73b5c;'>* This web-app might not work with Android webcam"</h4>''',
+            '''<h4 style='text-align: left; color: #d73b5c;'>* This web-app might not work with Android webcam. It’s still a prototype and the API is not finalized, and the documentation has not been written. So this feature may not work properly."</h4>''',
             unsafe_allow_html=True)
         webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
 run()

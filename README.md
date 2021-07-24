@@ -1,3 +1,5 @@
+## Also deployed: Live App: https://face-detect-codingal-assign.herokuapp.com/ 
+
 # Usage:- 
 - Clone this repository.
 - Open cmd in working directory.
@@ -7,8 +9,8 @@
 - app.py is the main python file for **Streamlit Web Application**.
 - To run app, write following command in CMD. or use any IDE. (This will run the app on localhost)
     - streamlit run app.py
-- Also DEPLOYED on Heroku, visit: https://face-detect-codingal-assign.herokuapp.com/  (This may not work properly)
-- Waiting for Streamlit invite. Once got, I will deploy it on Streamlit for better efficiency.
+- Also DEPLOYED on Heroku, visit: https://face-detect-codingal-assign.herokuapp.com/ 
+
 
 ################ Information about other work done in this repository ##################
 

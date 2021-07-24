@@ -10,6 +10,8 @@
 - To run app, write following command in CMD. or use any IDE. (This will run the app on localhost)
     - streamlit run app.py
 - Also DEPLOYED on Heroku, visit: https://face-detect-codingal-assign.herokuapp.com/ 
+- Note: The webapp feature for deployed app may not work properly as streamlit-webrtc is still under creation. It is difficult to create live stream computer vision apps on 
+  streamlit as this means to refresh the streamlit large number of times in a short period of time.
 
 
 ################ Information about other work done in this repository ##################
